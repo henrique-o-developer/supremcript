@@ -7,6 +7,7 @@
 ### 4.3
 
 #### encriptando
+
 ```js
 var IV = SALT = CHAR = 237;
 //                                senha da criptografia
