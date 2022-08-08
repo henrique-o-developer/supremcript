@@ -1,6 +1,6 @@
 {
   "name": "supremcript",
-  "version": "4.3.4",
+  "version": "4.3.5",
   "description": "Encrypt and decrypt",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/henrique-o-developer/supremcript.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "author": "henrique-o-developer",
   "license": "MIT",
