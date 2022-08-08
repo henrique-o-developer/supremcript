@@ -1,11 +1,11 @@
 {
   "name": "supremcript",
-  "version": "4.3.3",
+  "version": "4.3.4",
   "description": "Encrypt and decrypt",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "publish": "git add *; git commit -m 'commit automatico'; git push; npm publish"
+    "send": "git add *; git commit -m 'commit automatico'; git push; npm publish"
   },
   "typings": "./index.ts",
   "files": [
