@@ -1,10 +1,11 @@
 {
   "name": "supremcript",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "description": "Encrypt and decrypt",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "publish": "git add *; git commit -m 'commit automatico'; git push; npm publish"
   },
   "typings": "./index.ts",
   "files": [
@@ -16,6 +17,10 @@
     "cryptography",
     "easy"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrique-o-developer/supremcript.git"
+  },
   "author": "henrique-o-developer",
   "license": "MIT",
   "devDependencies": {
