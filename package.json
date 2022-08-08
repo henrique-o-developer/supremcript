@@ -1,33 +1,34 @@
 {
-  "name": "@henrique-o-developer/supremcript",
-  "version": "4.3.5",
-  "description": "Encrypt and decrypt",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "send": "git add *; git commit -m 'commit automatico'; git push; npm publish"
-  },
-  "typings": "./index.ts",
-  "files": [
-    "./old.js"
-  ],
-  "keywords": [
-    "encrypt",
-    "decrypt",
-    "cryptography",
-    "easy"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/henrique-o-developer/supremcript.git"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },
-  "author": "henrique-o-developer",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^18.6.3",
-    "jest": "^28.1.3"
-  }
+	"name": "@henrique-o-developer/supremcript",
+	"version": "4.3.7",
+	"description": "Encrypt and decrypt",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"send": "node ./publish.js"
+	},
+	"typings": "./index.ts",
+	"files": [
+		"./old.js"
+	],
+	"keywords": [
+		"encrypt",
+		"decrypt",
+		"cryptography",
+		"easy"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/henrique-o-developer/supremcript.git"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"author": "henrique-o-developer",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^18.6.3",
+		"jest": "^28.1.3",
+		"json-format": "^1.0.1"
+	}
 }
